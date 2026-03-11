@@ -138,7 +138,7 @@ class AwsClient
             throw new TransportException("Problem?", 500, $e);
         }
 
-        return $this;
+        return $result;
     }
 
     /**
